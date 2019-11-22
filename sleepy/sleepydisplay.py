@@ -21,8 +21,8 @@ draw = ImageDraw.Draw(image)
 
 draw.rectangle((0,0,width,height), outline=0, fill=0)
 
-font = ImageFont.truetype('pixelmix/pixelmix.ttf', 6)
-boldFont = ImageFont.truetype('pixelmix/pixelmix_bold.ttf', 8)
+font = ImageFont.truetype('/home/pi/slee.py/pixelmix/pixelmix.ttf', 6)
+boldFont = ImageFont.truetype('/home/pi/slee.py/pixelmix/pixelmix_bold.ttf', 8)
 
 def update():
     draw.rectangle((0,0,width,height), outline=0, fill=0)
